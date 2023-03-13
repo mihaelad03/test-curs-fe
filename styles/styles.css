@@ -1,5 +1,5 @@
 .bg-image {
-    background-image: url('poza\ prima\ pagina.jpg');
+    background-image: url('../assets/images/poza_prima_pagina.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,29 +115,30 @@ html {
     position: relative;
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
 }
 
 
-#myVideo {  
-    position:fixed;
+#myVideo {
+    position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
-  }
+}
 
-  .content {
-    position:fixed;
+.content {
+    position: fixed;
     bottom: 15px;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-    font-size: medium; }
-  
-  #myBtn {
+    font-size: medium;
+}
+
+#myBtn {
     width: 200px;
     font-size: 18px;
     padding: 10px;
@@ -145,62 +146,87 @@ html {
     background: #000;
     color: #fff;
     cursor: pointer;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background: #ddd;
     color: black;
-  }
-  .content-up {
-        position:fixed;
-        bottom: 630px;
-        background: rgba(0, 0, 0, 0.5);
-        color: #f1f1f1;
-        width: 100%;
-        padding: 20px;
-        font-size: medium; }
-      
-        .cofetarie{
-            color: rgb(20, 7, 192);
-            text-indent: 10px;
-            padding-left: 30px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size:medium;
-            text-align: center;
-        }
+}
 
-        .Eclere{
-            border: 1px solid black;
-            padding: 10px;
-            margin: 20px;
-            width: 20%;
-            background-color: #eee8c8;
-            display: inline-block;
-            position: relative; 
-        }
-.Caramel{
+.content-up {
+    position: fixed;
+    bottom: 630px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: medium;
+}
+
+.cofetarie {
+    color: rgb(20, 7, 192);
+    text-indent: 10px;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.Eclere {
     border: 1px solid black;
-            padding: 10px;
-            margin: 20px;
-            width: 20%;
-            background-color: #eee8c8;
-            display: inline-block;
-            position: relative; 
-        }
-        .tarta_cu_fructe{ 
-            border: 1px solid black;
-            padding: 10px;
-            margin: 20px;
-            width: 20%;
-            background-color: #eee8c8;
-            display: inline-block;
-            position: relative; }
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    background-color: #eee8c8;
+    display: inline-block;
+    position: relative;
+}
 
-            .container
-            {display: flex;
-            flex-direction: row;
-            flex-wrap:wrap;
-            justify-content:space-evenly;
-            align-items: stretch;
-            
-            }
+.Caramel {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    background-color: #eee8c8;
+    display: inline-block;
+    position: relative;
+}
+
+.tarta_cu_fructe {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    background-color: #eee8c8;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-nav {
+    display: block;
+}
+
+.navbar-nav li {
+    display: inline-block;
+}
+
+
+.user-field {
+    margin-bottom: 15px;
+    min-width: 200px;
+    border-radius: 5px;
+    padding:5px;
+}
+.submit-button{
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    padding:25px;
+}
+
+.site-logo {
+    height:70px;
+    width:auto;
+    display: block;
+    float:right;
+}

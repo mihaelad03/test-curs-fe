@@ -1,14 +1,16 @@
 body {
-    background-color: rgb(185, 185, 105);
+    background-color: rgb(192, 192, 48);
 }
-.dropdown-item{
+
+.dropdown-item {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;  
+    font-size: 30px;
     color: #e6ecc5;
 }
-.tabele-preturi{
-    border:2px solid green;
+
+.tabele-preturi {
+    border: 2px solid green;
     margin-left: auto;
     margin-right: auto;
     padding-left: 3px;
@@ -19,42 +21,43 @@ body {
 table.tabele-preturi tr {
     border-bottom: 1px solid black;
 }
+
 .tabele-preturi tr td {
     border-left: 1px solid black;
 }
 
-th, td {
-    border:1px solid;
-    width: 80%;}
+th,
+td {
+    border: 1px solid;
+    width: 80%;
+}
 
 .Text1 {
-        text-align: center;
-        color:rgb(182, 169, 31);
-        font-size: 45px;
-        font-family: cursive;
-    }
+    text-align: center;
+    color: rgb(182, 169, 31);
+    font-size: 45px;
+    font-family: cursive;
+}
 
-.raft{
+.raft {
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
-    margin:auto;
+    margin: auto;
     width: 50%;
-    background-color:#e6ecc5;
+    background-color: #e6ecc5;
     display: block;
-    text-align: center; 
+    text-align: center;
 }
+
 .footer {
-background-color: rgb(110, 53, 53);
-color: #f7efab;
-height: 100%;
-text-align: left;
-margin-left: 10px;
-bottom: 50px;
-
-}
-
-.container-fluid {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+    background-color: rgb(110, 53, 53);
+    color: #f7efab;
+    text-align: left;
+    margin-left: 10px;
+    bottom: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
 }

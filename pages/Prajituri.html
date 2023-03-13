@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Prajituri</title>
-    <link rel="icon" href="/icon.jpeg" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="icon" href="../assets/images/icon.jpeg" />
+    <link rel="stylesheet" href="../styles/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,11 +23,13 @@
     <div class="container-fluid">
       <nav
         class="navbar navbar-expand-lg navbar-dark bg-dark"
-        style="width: 100%"
+        style="width: 100%; display: block"
       >
         <div class="row">
           <div class="col-4">
-            <a class="navbar-brand" href="#">Brutarie delicioasa</a>
+            <a class="navbar-brand" href="../index.html">
+              <img class="site-logo" src="../assets/images/logo.PNG" />
+            </a>
           </div>
           <div class="col-8">
             <button
@@ -42,7 +44,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav" style="width: 100%">
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
@@ -74,17 +76,9 @@
                     <li>
                       <a
                         class="dropdown-item"
-                        href="./pages/Prajituri.html"
+                        href="Prajituri.html"
                         target="_blank"
                         >Prajituri</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="Torturi.html"
-                        target="_blank"
-                        >Torturi</a
                       >
                     </li>
                   </ul>
@@ -94,52 +88,16 @@
                     >Preturi</a
                   >
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDarkDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Locatiile noastre
-                  </a>
-                  <ul
-                    class="dropdown-menu dropdown-menu-dark"
-                    aria-labelledby="navbarDarkDropdownMenuLink"
-                  >
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="Floreasca.html"
-                        target="_blank"
-                        >Floreasca</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="Unirii.html"
-                        target="_blank"
-                        >Unirii</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item"
-                        href="Basarabia.html"
-                        target="_blank"
-                        >Basarabia</a
-                      >
-                    </li>
-                  </ul>
-                </li>
                 <li style="float: right">
                   <a href="" class="social-link link-to-facebook"></a>
                 </li>
                 <li style="float: right">
                   <a href="" class="social-link link-to-instagram"></a>
+                </li>
+                <li class="nav-item" style="float: right">
+                  <a href="Cart.html" target="_blank" class="nav-link"
+                    >Cos produse</a
+                  >
                 </li>
               </ul>
             </div>
@@ -166,28 +124,11 @@
       <br />
     </h3>
 
-    <div class="container" style="text-align: center" id="container-prajituri">
-      <!-- <div class="Eclere">
-        <h4>Eclere cremoase</h4>
-        <img src="Eclere.jpg" height="200px" width="200" />
-        <p>Eclere cu ciocolata, ness sau caramel.</p>
-        <p>Cost-10Ron/Bucata;</p>
-      </div>
-      <div class="Caramel">
-        <h4>Mini-prajituri cu caramel</h4>
-        <img src="caramel.jpg" height="200px" width="200" />
-        <span>Produsele se pot vinde la bucata sau kilogram</span>
-        <span>Cost-5 Ron bucata;</span>
-        <span>Cost-50 Ron/kilogram;</span>
-      </div>
-
-      <div class="tarta_cu_fructe">
-        <h4>Tarta cu fructe</h4>
-        <img src="tarta cu fructe.jpg" height="200px" width="200" />
-        <p>Se consuma impreuna cu un pahar de vin rose.</p>
-        <p>Cost-10 Ron/ bucata;</p>
-      </div> -->
-    </div>
+    <div
+      class="container"
+      style="text-align: center"
+      id="container-prajituri"
+    ></div>
     <hr />
     <div class="container">
       <div class="row">

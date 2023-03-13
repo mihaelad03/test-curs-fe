@@ -30,7 +30,7 @@ export const products = [
     categorie: "Prajituri",
   },
   {
-    name: "tarta_cu_fructe",
+    name: "Tarta cu Fructe",
     pret: 10,
     img: "/assets/images/tarta_cu_fructe.jpg",
     categorie: "Prajituri",
